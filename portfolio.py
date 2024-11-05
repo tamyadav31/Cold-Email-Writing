@@ -27,7 +27,7 @@ import numpy as np
 import uuid
 
 class Portfolio:
-    def __init__(self, file_path="C:\\Users\\tamya\\Desktop\\email_generator\\resources\\my_portfolio.csv"):
+    def __init__(self, file_path="./resources/my_portfolio.csv"):
         self.file_path = file_path
         self.data = pd.read_csv(file_path)
         
